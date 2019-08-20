@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mFavorito"
+        android:checked="true"
+        android:icon="@drawable/ic_favorite"
+        android:title="Favorito" />
+    <item
+        android:id="@+id/mRecente"
+        android:checked="false"
+        android:icon="@drawable/ic_restore"
+        android:title="Recente" />
+    <item
+        android:id="@+id/mLocation"
+        android:checked="false"
+        android:icon="@drawable/ic_location"
+        android:title="Local" />
+
+</menu>
